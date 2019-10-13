@@ -167,7 +167,7 @@ const argv = yargs
   })
   .command({
     command: 'create-log',
-    desc: `Creates a unified .csv log file from the .gz files in ./gzip (combo of 'to-csv' and 'combine-csv'.`,
+    desc: `Creates a unified .csv log file from the .gz files in ./gzip (combo of 'to-csv' and 'combine-csv').`,
     handler: createLog,
     builder: attachCsvFilterFlagInfo
   })
