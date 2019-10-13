@@ -1,0 +1,33 @@
+{
+  "name": "cloudfront-log-processor",
+  "version": "0.0.1",
+  "description": "Small CLI to handle the combining and filtering of cloudfront access logs",
+  "main": "src/index.js",
+  "dependencies": {
+    "node-gzip": "^1.1.2",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dv8fromtheworld/cloudfront-log-processor.git"
+  },
+  "keywords": [
+    "cloudfront",
+    "aws",
+    "cli",
+    "logs"
+  ],
+  "author": "Austin Keener <keeneraustin@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dv8fromtheworld/cloudfront-log-processor/issues"
+  },
+  "homepage": "https://github.com/dv8fromtheworld/cloudfront-log-processor#readme",
+  "bin": {
+    "cf-logs": "bin/cf-logs"
+  }
+}
